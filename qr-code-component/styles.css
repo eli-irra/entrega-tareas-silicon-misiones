@@ -1,0 +1,42 @@
+:root{
+    --color-fondo-general:  #c5e0f1;
+    --color-fondo-tarjeta: #ffffff;
+    --color-texto-titulo: #1f2f56;
+    --color-texto-parrafo: #7b879d;
+}
+
+body{
+    background-color: var(--color-fondo-general);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+article{
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+    background-color: var(--color-fondo-tarjeta);
+    padding: 16px;
+    border-radius: 16px;
+    box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.2);
+    max-width: 320px;
+}
+img{
+    width: 100%;
+    border-radius: 10px;
+}
+h1{
+    font-size: 24px;
+    color: var(--color-texto-titulo);
+}
+p{
+    
+    font-size: 16px;
+    color: var(--color-texto-parrafo);
+    margin: 10px;
+}
+
+article:hover{
+    box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.4);
+}
